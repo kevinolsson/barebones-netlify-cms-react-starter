@@ -1,6 +1,5 @@
 import React from 'react'
 
-import '../src/globalStyles.css'
 import data from '../src/data.json'
 import Home from '../src/views/Home'
 import About from '../src/views/About'
