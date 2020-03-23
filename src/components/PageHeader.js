@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 import Content from './Content'
 import BackgroundImage from './BackgroundImage'
-import './PageHeader.css'
 
 const PageHeader = ({
   title,

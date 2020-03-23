@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import 'intersection-observer'
 import Observer from '@researchgate/react-intersection-observer'
-
-import './BackgroundImage.css'
 import { getImageSrc } from '../util/getImageUrl'
 
 export default class BackgroundImage extends React.Component {

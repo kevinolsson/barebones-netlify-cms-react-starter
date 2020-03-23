@@ -2,7 +2,6 @@ import React from 'react'
 import 'intersection-observer'
 import Observer from '@researchgate/react-intersection-observer'
 
-import './LazyEmbed.css'
 
 class LazyEmbed extends React.Component {
   static defaultProps = {

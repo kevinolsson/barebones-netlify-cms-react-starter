@@ -2,7 +2,6 @@ import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 
-import './EnquiryForm.css'
 
 const fetch = window.fetch
 

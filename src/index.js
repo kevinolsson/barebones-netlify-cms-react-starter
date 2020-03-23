@@ -1,6 +1,5 @@
 import React from 'react'
 import { render } from 'react-snapshot'
-import 'modern-normalize/modern-normalize.css'
 import App from './App'
 import registerServiceWorker, { unregister } from './registerServiceWorker'
 import data from './data.json'

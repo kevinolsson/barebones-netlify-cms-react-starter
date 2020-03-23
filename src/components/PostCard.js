@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import { slugify } from '../util/url'
 import BackgroundImage from './BackgroundImage'
-import './PostCard.css'
 
 const PostCard = ({ postItem, className = '', ...props }) => (
   <Link

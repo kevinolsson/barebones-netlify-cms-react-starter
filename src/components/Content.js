@@ -3,7 +3,6 @@ import Marked from 'react-markdown'
 import PropTypes from 'prop-types'
 
 import { getImageSrc, getImageSrcset } from '../util/getImageUrl'
-import './Content.css'
 
 const encodeMarkdownURIs = (source = '') => {
   const markdownLinkRegex = /\[(?:\[[^\]]*\]|[^[\]])*\]\([ \t]*<?((?:\([^)]*\)|[^()])*?)>?[ \t]*(['"].*?\6[ \t]*)?\)/g

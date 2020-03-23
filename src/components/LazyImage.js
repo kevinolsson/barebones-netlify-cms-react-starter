@@ -4,7 +4,6 @@ import 'intersection-observer'
 import Observer from '@researchgate/react-intersection-observer'
 
 import { getImageSrc, getImageSrcset } from '../util/getImageUrl'
-import './LazyImage.css'
 
 class LazyImage extends React.Component {
   static defaultProps = {

@@ -10,9 +10,6 @@ import SinglePost from '../src/views/SinglePost'
 console.log('React version', React.version)
 
 const CMS = window.CMS
-CMS.registerPreviewStyle(
-  'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css'
-)
 CMS.registerPreviewStyle('/admin/cms.bundle.css')
 
 const getDocument = (collection, name) =>

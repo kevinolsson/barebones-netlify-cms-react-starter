@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import { stringify } from 'qs'
 
-import './EnquiryForm.css'
-import './EnquiryFormControlled.css'
-
 const fetch = window.fetch
 
 class Form extends Component {

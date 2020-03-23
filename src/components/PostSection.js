@@ -2,8 +2,6 @@ import React from 'react'
 import _sortBy from 'lodash/sortBy'
 
 import PostCard from '../components/PostCard'
-import './PostSection.css'
-
 class PostSection extends React.Component {
   static defaultProps = {
     posts: [],
