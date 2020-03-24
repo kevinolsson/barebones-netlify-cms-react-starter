@@ -100,7 +100,7 @@ Object.keys(typography).map((key) => {
   typography[key].transition = '0.2s ease-out all';
 });
 
-const theme = createMuiTheme({
+export const theme = createMuiTheme({
   spacing: 4,
   palette: {
     portfolio: palette.portfolio,
@@ -134,5 +134,3 @@ const theme = createMuiTheme({
     },
   },
 });
-
-export default theme;
