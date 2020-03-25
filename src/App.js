@@ -7,7 +7,7 @@ import { Router } from 'Router';
 import data from './data.json'
 
 const App = () => {
-  
+  console.log('data: ',data)
   return (
     <DataProvider value={data}>
       <MuiThemeProvider theme={theme}>

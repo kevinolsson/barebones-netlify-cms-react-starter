@@ -1,11 +1,11 @@
 import React from 'react'
 
 import data from '../src/data.json'
-import Home from '../src/views/Home'
-import About from '../src/views/About'
-import Contact from '../src/views/Contact'
-import Blog from '../src/views/Blog'
-import SinglePost from '../src/views/SinglePost'
+import { Home } from '../src/components/Home/Home';
+import { About } from '../src/components/About/About';
+import { Blog } from '../src/components/Blog/Blog';
+import { Contact } from '../src/components/Contact/Contact';
+import { BlogPost } from '../src/components/BlogPost/BlogPost';
 
 console.log('React version', React.version)
 
@@ -33,7 +33,7 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
   <Blog fields={entry.toJS().data} posts={posts} />
 ))
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
-  <SinglePost fields={entry.toJS().data} />
+  <BlogPost fields={entry.toJS().data} />
 ))
 
 // Return to home when user logging out

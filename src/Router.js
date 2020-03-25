@@ -1,28 +1,31 @@
 import React from 'react';
-import { BrowserRouter, Route as ReactRoute, Switch } from 'react-router-dom'
-import Meta from 'components/Meta/Meta';
-import DataContext from 'DataContext';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Home } from 'components/Home/Home';
+import { About } from 'components/About/About';
+import { Blog } from 'components/Blog/Blog';
+import { BlogPost } from 'components/BlogPost/BlogPost';
+import { Contact } from 'components/Contact/Contact';
  
-const Route = ({ component: Component, ...props}) => (
-  <ReactRoute
-    {...props}
-    render={routeProps => (
-      <React.Fragment>
-        <Meta {...props} />
-        <Component {...routeProps} {...props} />
-      </React.Fragment>
-    )}
-  />
-);
-
 export const Router = props => {
-  const { settings } = React.useContext(DataContext); 
-  const { siteDescription } = settings[0];
+
   return (
     <BrowserRouter>
       <Switch>
-        <Route path='/' exact component={Home} description={siteDescription} />
+        <Route path='/' exact>
+          <Home />
+        </Route>
+        <Route path='/about' exact >
+          <About />
+        </Route>
+        <Route path='/blog' exact>
+          <Blog />
+        </Route>
+        <Route path='/blog/:blugSlug' >
+          <BlogPost />
+        </Route>
+        <Route path='/contact' exact>
+          <Contact />
+        </Route>
       </Switch>
     </BrowserRouter>
   );
