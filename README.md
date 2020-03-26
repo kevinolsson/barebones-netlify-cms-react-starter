@@ -1,6 +1,6 @@
 # Barebones Netlify CMS + React Starter
 
-Do note that this is a stripped down and modified version of [Jinksi/Netlify CMS + React Starter](https://github.com/Jinksi/netlify-cms-react-starter) - Do check his Jinksi's repo out as he explains everything in a much better fashion.
+Do note that this is a stripped down and modified version of [Jinksi/Netlify CMS + React Starter](https://github.com/Jinksi/netlify-cms-react-starter) - Do check his [Jinksi](https://github.com/Jinksi/)'s repo out as he explains everything in a much better fashion.
 
 Barebone starter point for creating JAMstack sites with Netlify CMS. Ideal for someone who is:
 
@@ -22,6 +22,6 @@ Barebone starter point for creating JAMstack sites with Netlify CMS. Ideal for s
 
 ## Relevant Links
 
-[Jinksi/Netlify CMS + React Starter](https://github.com/Jinksi/netlify-cms-react-starter)
-[Netlify CMS Docs](https://www.netlifycms.org/docs/)  
-[Netlify CMS Repo](https://github.com/netlify/netlify-cms)  
+- [Jinksi/Netlify CMS + React Starter](https://github.com/Jinksi/netlify-cms-react-starter)
+- [Netlify CMS Docs](https://www.netlifycms.org/docs/)  
+- [Netlify CMS Repo](https://github.com/netlify/netlify-cms)  
