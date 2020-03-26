@@ -1,7 +1,7 @@
 import React from 'react';
 import DataContext from 'DataContext';
 import { useHistory, Link } from 'react-router-dom';
-import Content from 'components/Content';
+import Content from 'components/Content/Content';
 
 export const BlogPost = () => {
   const history = useHistory();
@@ -16,7 +16,7 @@ export const BlogPost = () => {
     <div>
       <Link to='/blog'>Back to blog</Link>
       <h1>{title}</h1>
-      <Content source={body} />
+      <Content src={body} />
     </div>
   ) : <div>404 not found</div>;
 };

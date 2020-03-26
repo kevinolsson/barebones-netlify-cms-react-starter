@@ -5,11 +5,13 @@ import { About } from 'components/About/About';
 import { Blog } from 'components/Blog/Blog';
 import { BlogPost } from 'components/BlogPost/BlogPost';
 import { Contact } from 'components/Contact/Contact';
+import { GoogleAnalytics } from 'components/GoogleAnalytics/GoogleAnalytics'
  
 export const Router = props => {
 
   return (
     <BrowserRouter>
+      <GoogleAnalytics />
       <Switch>
         <Route path='/' exact>
           <Home />
