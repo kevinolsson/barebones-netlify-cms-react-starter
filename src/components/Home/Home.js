@@ -6,18 +6,20 @@ import { Link } from 'react-router-dom'
 
 export const Home = () => {
   const { pages } = React.useContext(DataContext); 
-  const { title, subtitle, body } = pages.find(array => array.name === 'home');
+  const { title, subtitle, body, featuredImage } = pages.find(array => array.name === 'home');
   return (
     <React.Fragment>
       <Meta title={title} />
       <div>
+        <h1>{title}</h1>
+        <h4>{subtitle}</h4>
         <ul>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/blog">Blog</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
-        <h1>{title}</h1>
-        <h4>{subtitle}</h4>
+        <img alt={'featured'} src={featuredImage} style={{ maxWidth: '200px', height: 'auto '}} />
+        <hr />
         <Content src={body} />
       </div>
     </React.Fragment>

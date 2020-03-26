@@ -1,3 +1,7 @@
+## 1.0.0 - 2020-03-26
+
+- Forked and changed to accommodate my needs
+
 ## 0.5.1 - 2019-09-14
 
 - Fix webpack build errors in `/cms` dir

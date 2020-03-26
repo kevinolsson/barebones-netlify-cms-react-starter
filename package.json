@@ -1,6 +1,6 @@
 {
-  "name": "netlify-cms-react-starter",
-  "version": "0.5.1",
+  "name": "barebones-netlify-cms-react-starter",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "chokidar-cli": "^2.0.0",
