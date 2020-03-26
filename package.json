@@ -13,7 +13,6 @@
     "react-scripts": "^3.3.1",
     "sharp": "^0.23.0",
     "sitemap-static": "^0.4.4",
-    "snazzy": "^8.0.0",
     "sw-precache": "^5.2.0"
   },
   "dependencies": {
@@ -22,7 +21,6 @@
     "dom-form-serializer": "^1.0.7",
     "intersection-observer": "^0.7.0",
     "lodash": "^4.17.15",
-    "moveto": "^1.8.2",
     "netlify-identity-widget": "^1.5.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -30,11 +28,7 @@
     "react-helmet": "^5.2.1",
     "react-markdown": "4.2.2",
     "react-router-dom": "^5.1.2",
-    "react-snapshot": "^1.3.0",
-    "@material-ui/core": "^4.8.1",
-    "@material-ui/icons": "^4.5.1",
-    "@material-ui/lab": "^4.0.0-alpha.45",
-    "tornis": "^0.2.1"
+    "react-snapshot": "^1.3.0"
   },
   "scripts": {
     "start": "npm-run-all prepare-content -p start:content start:app start:cms",
@@ -53,7 +47,6 @@
     "install:cms": "cd cms && npm i",
     "resize-images": "node ./functions/resize-images.js",
     "prepare-content": "npm-run-all -s parse-content resize-images",
-    "test": "standard | snazzy && react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "reactSnapshot": {
